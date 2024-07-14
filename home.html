@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brains Media Solutions</title>
+    <link href="output.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="Css/slider.css" rel="stylesheet">
+    <link href="Css/cursor.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2892cfcd4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="overflow-x-hidden ">
+  
+    <div >
+        <a href="#" class="scrollup"> <i class="fa-solid fa-angle-up"></i></a>
+       </div>
+
+    
+
+    <nav class="z-[1000] flex nav w-[100%]  h-20 fixed text-white">
+        <ul class="sidebar  text-white">
+
+            <li class="bg-white h-20" onclick=hideSidebar()><a href="#"
+                    class="items-center justify-center text-center  hover:text-black"><i
+                        class="fa-solid fa-xmark fa-2x absolute left-3 text-black"></i>
+                    <h1 class="text-2xl text-center font-bold text-black"> Menu</h1>
+                </a></li>
+            <li class="items-center justify-center h-[50px]"><a href="#home"
+                    class="text-black  font-medium transition-all duration-300">Home</a></li>
+            <li class="items-center justify-center h-[50px] transition-all duration-300 "><a href="#about"
+                    class="text-black font-medium">About </a></li>
+            <li class="items-center justify-center h-[50px] transition-all duration-300 "><a href="#mission"
+                    class="text-black font-medium ">Mission</a></li>
+            <li class="items-center justify-center h-[50px] transition-all duration-300 "><a href="#vision"
+                    class="text-black font-medium ">Vision</a></li>
+            <li class="items-center justify-center h-[50px] transition-all duration-300 "><a href="#services"
+                    class="text-black font-medium">Services</a></li>
+        </ul>
+        <ul class=" flex items-center  justify-center text-gray-500  ">
+            <li><a href="#">
+                    <p class="font-extrabold ml-4 text-white"><span
+                            class="font-extrabold pt-8 ml-4 text-[#f1683a] text-xl"><span
+                                class="text-3xl font-bold">B</span>rain</span> media<br>Solutions</p>
+                </a></li>
+            <li class="hideOnMobile hover:border-b-2  duration-150  cursor-pointer rounded-md"><a
+                    href="#home" class="active no-underline hover:text-gray-500 text-white items-center justify-center">Home</a>
+            </li>
+            <li class="hideOnMobile hover:border-b-2 border-b-[#f1683a] duration-150  cursor-pointer rounded-md "><a
+                    href="#about" class="no-underline hover:text-gray-500 text-white items-center justify-center">About
+                </a></li>
+            <li class="hideOnMobile hover:border-b-2 border-b-[#f1683a] duration-150  cursor-pointer rounded-md"><a
+                    href="#mission"
+                    class="no-underline hover:text-gray-500 text-white items-center justify-center">Mission</a></li>
+            <li class="hideOnMobile hover:border-b-2 border-b-[#f1683a] duration-150  cursor-pointer rounded-md"><a
+                    href="#vision"
+                    class="no-underline hover:text-gray-500 text-white items-center justify-center">Vision</a></li>
+            <li class="hideOnMobile hover:border-b-2 border-b-[#f1683a] duration-150  cursor-pointer rounded-md "><a
+                    href="#services"
+                    class="no-underline hover:text-gray-500 text-white items-center justify-center">Services</a></li>
+            <li class="menu-button  text-white" onclick=showSidebar()> <i class="fa-solid fa-bars fa-2x my-2"></i></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section1">
+        <div class="slide-container">
+            <!-- carousel -->
+            <div class="carousel">
+                <!-- list item -->
+                <div class="list">
+                    <div class="item">
+                        <img src="images/animate-1.jpg">
+                        <div class="content">
+                            <div class="author sm:mb-12 lg:mb-10 mb-10">BRAIN</div>
+                            <div class="title font-bold leading-5 sm:text-4xl lg:text-7xl sm:mb-2 lg:mb-4 mb-2">MEDIA</div>
+                            <div
+                                class="topic  font-bold leading-5 sm:text-4xl lg:text-7xl md:text-5xl text-3xl mb-2 sm:mb-2">
+                                SOLUTIONS</div>
+                            <div
+                                class="des w-[90%] justify-center text-center items-center text-[10px] sm:text-[12px] lg:text-[15px] ">
+                                <!-- lorem 50 -->
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
+                                minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda
+                                facere ab et quasi ducimus aut doloribus non numquam. Explicabo!
+                            </div>
+                            <div
+                                class="buttons invisible lg:visible rounded-sm transition-all duration-600  border-2 hover:border-[#f1683a] border-[#f1683a]  hover:bg-transparent lg:w-40 md:w-36 sm:w-40  bg-[#f1683a]">
+                                <button class=" rounded-sm text-[14px]">MORE NEWS <i
+                                        class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/banner_1.jpg">
+                        <div class="content">
+                            <div class="author sm:mb-12 lg:mb-10 mb-10">BRAIN</div>
+                            <div class="title font-bold leading-5 sm:text-4xl lg:text-7xl sm:mb-2 lg:mb-4 mb-2 ">MEDIA</div>
+                            <div
+                                class="topic  font-bold leading-5 sm:text-4xl lg:text-7xl  md:text-5xl text-3xl mb-2 sm:mb-2">
+                                SOLUTIONS</div>
+                            <div
+                                class="des w-[90%] justify-center text-center items-center text-[10px] sm:text-[12px] lg:text-[15px] ">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
+                                minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda
+                                facere ab et quasi ducimus aut doloribus non numquam. Explicabo!
+                            </div>
+                            <div
+                                class="buttons invisible lg:visible rounded-sm transition-all duration-600  border-2 hover:border-[#f1683a] border-[#f1683a]  hover:bg-transparent lg:w-40 md:w-36 sm:w-40  bg-[#f1683a]">
+                                <button class=" rounded-sm">MORE NEWS <i
+                                        class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/ai3.jpg">
+                        <div class="content">
+                            <div class="author sm:mb-12 lg:mb-10 mb-10">BRAIN</div>
+                            <div class="title font-bold leading-5 sm:text-4xl lg:text-7xl sm:mb-2 lg:mb-4 mb-2">MEDIA</div>
+                            <div
+                                class="topic  font-bold leading-5 sm:text-4xl lg:text-7xl  md:text-5xl text-3xl mb-2 sm:mb-2">
+                                SOLUTIONS</div>
+                            <div
+                                class="des w-[90%] justify-center text-center items-center text-[10px] sm:text-[12px] lg:text-[15px] ">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
+                                minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda
+                                facere ab et quasi ducimus aut doloribus non numquam. Explicabo!
+                            </div>
+                            <div
+                                class="buttons invisible lg:visible rounded-sm transition-all duration-600  border-2 hover:border-[#f1683a] border-[#f1683a]  hover:bg-transparent lg:w-40 md:w-36 sm:w-40  bg-[#f1683a]">
+                                <button class=" rounded-sm">MORE NEWS <i
+                                        class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/ab1.jpg">
+                        <div class="content">
+                            <div class="author sm:mb-12 lg:mb-10 mb-10">BRAIN</div>
+                            <div class="title font-bold leading-5 sm:text-4xl lg:text-7xl sm:mb-2 lg:mb-4 mb-2">MEDIA</div>
+                            <div
+                                class="topic  font-bold leading-5 sm:text-4xl lg:text-7xl  md:text-5xl text-3xl mb-2 sm:mb-2">
+                                SOLUTIONS</div>
+                            <div
+                                class="des w-[90%] justify-center text-center items-center text-[10px] sm:text-[12px] lg:text-[15px] ">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt
+                                minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda
+                                facere ab et quasi ducimus aut doloribus non numquam. Explicabo!
+                            </div>
+                            <div
+                                class="buttons invisible lg:visible rounded-sm transition-all duration-600  border-2 hover:border-[#f1683a] border-[#f1683a]  hover:bg-transparent lg:w-40 md:w-36 sm:w-40 hidden bg-[#f1683a]">
+                                <button class=" rounded-sm">MORE NEWS <i
+                                        class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- list thumnail -->
+                <div class="thumbnail">
+                    <div class="item">
+                        <img src="images/animate-1.jpg">
+                        <div class="content">
+                            <div class="title">
+                                Name Slider
+                            </div>
+                            <div class="description">
+                                Description
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/banner_1.jpg">
+                        <div class="content">
+                            <div class="title">
+                                Name Slider
+                            </div>
+                            <div class="description">
+                                Description
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/ai3.jpg">
+                        <div class="content">
+                            <div class="title">
+                                Name Slider
+                            </div>
+                            <div class="description">
+                                Description
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/ab1.jpg">
+                        <div class="content">
+                            <div class="title">
+                                Name Slider
+                            </div>
+                            <div class="description">
+                                Description
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- next prev -->
+
+                <div class="arrows cursor-pointer justify-between ">
+                    <button id="prev" class=""> <i class="fa-solid fa-chevron-left fa-2x "></i> </button>
+                    <button id="next" class="sm:mx-[365%] "><i class="fa-solid fa-chevron-right fa-2x "></i></button>
+                </div>
+                <!-- time running -->
+                <div class="time"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="about-container">
+            <h1 class="sm:text-[70px] text-[30px] text-white text-center  font-bold tracking-wide pt-4">About Us</h1>
+            <div class="underline1 mt-2"> <span> </span> </div>
+            <div class="about-main flex ">
+                <div class="w-[50%]  shadow-inner bg-cover   z-[1000]">
+                    <video autoplay muted loop id="myvideo ">
+                        <source src="images/slider-2.webm" type="video/webm">
+
+                    </video>
+                </div>
+
+                <div class=" right w-[50%]">
+                    <div>
+                        <h2 class="text-[30px] text-[#f1683a] font-semibold pb-4 pr-[27%] pt-10 text-left"><span
+                                class="sm:text-[60px] text-[20px] font-semibold drop-shadow-lg">Brain media
+                                Solutions</span><br><span class="sm:text-[45px] font-semibold text-[20px]">aims to
+                                :</span></h2>
+                        <p
+                            class="md:w-[80%] w-[96%]  text-gray-500 shadow-2xl justify-center items-center h-44 hover:h-96 transition-all duration-1000 md:text-md lg:text-lg sm:text-sm text-[10px] hover:text-white rounded-md p-4 pt-8 text-left bg-[#292727]">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ex aliquid omnis? Tenetur,
+                            beatae, quos laboriosam voluptatem ut accusamus eos similique perferendis est provident
+                            explicabo doloribus. Autem adipisci, praesentium, fuga soluta cumque dignissimos similique
+                            debitis et aliquam rerum, iure magni. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.! <br> <button
+                                class="border-2 transition-all duration-500 border-[#f1683a] mt-4 px-2 rounded-md hover:bg-[#f1683a]">Know
+                                more</button></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="">
+        <div class="mission-container">
+            <h1 class="sm:text-[70px] text-[30px] text-white text-center font-bold tracking-wide pt-4"> Mission</h1>
+            <div class="underline1 mt-2"> <span> </span> </div>
+            <div class="md:flex">
+
+                <div class="sm:flex px-10 sm:px-0">
+                    <div class="lg:px-20 px-10">
+                        <div class="w-20  text-left py-10"> <img src="images/un1.png" class="ml-10 mb-2">
+                            <h2 class="w-48 text-white mb-2 text-2xl">Collecting data base</h2>
+                            <p class="text-sm w-44 text-gray-400">Lorem ipsum dolor sit, amet Ratione, perferendis!</p>
+                        </div>
+
+                        <div class="w-20  text-left"> <img src="images/un2.png" class="ml-10 mb-2">
+                            <h2 class="w-48 text-white mb-2 text-2xl">Image generation</h2>
+                            <p class="text-sm w-44 text-gray-400">Lorem ipsum dolor sit, amet Ratione, perferendis!</p>
+                        </div>
+
+                    </div>
+                    <div class="px-20">
+                        <div class="w-20  text-left py-10"> <img src="images/un3.png" class="ml-10 mb-2">
+                            <h2 class="w-48 text-white mb-2 text-2xl">Integrate models</h2>
+                            <p class="text-sm w-44 text-gray-400">Lorem ipsum dolor sit, amet Ratione, perferendis!</p>
+                        </div>
+                        <div class="w-20  text-left"> <img src="images/un4.png" class="ml-10 mb-2">
+                            <h2 class="w-48 text-white mb-2 text-2xl">Test and train chatbots</h2>
+                            <p class="text-sm w-44 text-gray-400">Lorem ipsum dolor sit, amet Ratione, perferendis!</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <div
+                        class="carders lg:w-[90%] w-64 lg:flex md:w-[75%] space-y-4 sm:space-y-0 my-10 md:space-x-4 mx-12">
+                        <div class="up-card text-white h-64">
+                            <div class="small relative top-6 left-6 mb-10 animate-pulse">
+                                <i class="fa-solid fa-robot fa-2x px-[12px] py-2 "> </i>
+                            </div>
+                            <h1 class="text-2xl text-left ml-4 mb-2 font-medium">Objectives</h1>
+                            <div class="space-y-1 px-2 text-gray-300">
+                                <p class=""><i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                                <p> <i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                                <p> <i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+
+                        <div class="down-card text-white h-64">
+                            <div class="small relative top-6 left-6 mb-10 animate-pulse">
+                                <i class="fa-solid fa-book-bookmark fa-2x py-[10px] px-[18px] "> </i>
+                            </div>
+                            <h1 class="text-2xl text-left ml-4 mb-2 font-medium">Goals</h1>
+                            <div class="space-y-1 px-2 text-gray-300">
+                                <p><i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                                <p> <i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                                <p> <i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                                <p><i class="fa-solid fa-check"> </i> Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div><img src="images/contact-page-absolute-image.webp"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="vision" class="opacity-95 overflow-hidden">
+
+        <div class="vision-container vision w-[100%] ">
+            <h1 class="sm:text-[70px] text-[30px] text-white text-center font-bold tracking-wide pt-4"> Vision</h1>
+            <div class="underline1 mt-2"> <span> </span> </div>
+
+            <div class="pt-14">
+                <div class="md:flex lg:space-x-[30%] md:space-x-[15%] " style="background: url(images/lines.svg)" ;>
+                    <div class="w-64 mt-10 ml-10 lg:ml-36 ">
+                        <img src="images/ins5.jpg">
+                        <div class="flex gap-[10px] text-white bg-[#3336] w-44 mt-3 px-3 py-2 text-sm  rounded-xl">
+                            <h1 class="hover:text-[#f1683a] cursor-pointer font-medium transition"> Creative</h1>
+                            <h1 class="hover:text-[#f1683a] cursor-pointer font-medium transition
+    "> Hypereality</h1>
+
+                        </div>
+                        <div class="mt-4 ">
+                            <h1 class="text-3xl hover:text-[#f1683a] font-semibold text-white w-96  cursor-pointer">Our
+                                work shows real result from a wide range of clients.</h1>
+
+
+                            <p class="text-xl  hover:text-[#f1683a] mt-2 w-96 text-gray-400 cursor-pointer"> At our AI
+                                image creation website, we pride ourselves on the tangible results that our technology
+                                can provide.</p>
+                            <div class="button text-white hover:text-[#0000007d] "><a
+                                    class="no-underline font-semibold "><button
+                                        class=" bg-[#3333337d] hover:bg-white px-4 py-2 rounded-md mt-4 mb-20 text-lg tracking-wide ">
+                                        learn more</button></a></div>
+                        </div>
+                    </div>
+
+                    <div class="w-64 mt-10 mr-20">
+                        <img src="images/image-box-image-4-1.jpg">
+                        <div class="flex gap-[10px] text-white bg-[#3336] w-44 mt-3 px-3 py-2 text-sm  rounded-xl">
+                            <h1 class="hover:text-[#f1683a] cursor-pointer font-medium transition"> Animation</h1>
+                            <h1 class="hover:text-[#f1683a] cursor-pointer font-medium transition"> Editing</h1>
+
+                        </div>
+                        <div class="mt-4">
+                            <h1 class="text-3xl font-semibold text-white w-96 hover:text-[#f1683a] cursor-pointer">Our
+                                vision is to make clients happy.</h1>
+                            <p class="text-xl mt-2 w-96 text-gray-400 hover:text-[#f1683a] cursor-pointer">While
+                                artificial intelligence has undoubtedly revolutionized the world of image creation, it
+                                also raises important questions.</p>
+                            <div class="button text-white hover:text-[#0000007d] "><a
+                                    class="no-underline font-semibold "><button
+                                        class=" bg-[#3333337d] hover:bg-white px-4 py-2 rounded-md mt-4 mb-20 text-lg tracking-wide ">
+                                        learn more</button></a></div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="opacity-95 sm:h-screen">
+        <h1 class="sm:text-[70px] text-[30px] text-white text-center font-bold tracking-wide pt-4"> Services</h1>
+        <div class="underline1 mt-2"> <span> </span> </div>
+        <div class="services">
+            <div class=" gap-3 space-y-8 pt-10 px-36">
+                <div class="md:flex gap-[4vw] space-y-2 lg:space-y-0">
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/magic-wand.png" class="w-20 ml-14 pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/ic5.png" class="w-20  ml-14 pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                    <div class="bg-[#00000061] rounded-md  w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/artificial-intelligence.png" class="w-20 ml-14  pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/ic2.png" class="w-20 ml-14  pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                </div>
+                <div> <img src="images/line-sep.svg"></div>
+                <div class="rotate-90"> <img src="images/line-sep.svg"></div>
+
+                <div class="md:flex gap-[4vw] space-y-2 lg:space-y-0 pb-20">
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/ic1.png" class="w-20 ml-14  pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/ic7.png" class="w-20 ml-14  pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/ic6.png" class="w-20 ml-14  pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                    <div class="bg-[#00000061] rounded-md w-52 h-44 justify-center text-center items-center">
+
+                        <img src="images/ic10.png" class="w-20 ml-14  pt-4 mb-4">
+                        <h1 class="text-white font-bold text-2xl">AI Engine</h1>
+                    </div>
+                </div>ml-14
+            </div>
+        </div>
+    </section>
+    <section class="foooter" id="footer">
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <li><a href="#">
+                                <p class="font-extrabold ml-4 text-white"><span
+                                        class="font-extrabold  text-[#f1683a] text-xl"><span
+                                            class="text-3xl font-bold">B</span>rain</span>media<br><span
+                                        class=" font-bold text-xl">Solutions</span></span></p>
+                            </a></li>
+                    </div>
+
+                    <p class="mt-10 ml-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, voluptatem!
+                    </p>
+                </div>
+                <div class="col space-y-3">
+                    <h3 class="text-2xl"> Office <div class="underline mt-2"> <span> </span> </div>
+                    </h3>
+                    <p>Maharashtra</p>
+                    <p>Mumbai</p>
+                    <p>PIN XXXXXX, India</p>
+                    <p class="email-id">brainmediasolutionms@gmail.com</p>
+                    <h4>+91 - 012345678</h4>
+                </div>
+                <div class="col sm:ml-20 ml-4">
+                    <h3 class="text-2xl"> links<div class="underline mt-2"><span></span> </div>
+                    </h3>
+                    <ul class="space-y-2 ">
+                        <li class=""><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col  mr-18 ">
+                    <h3 class="text-2xl"> Newsletter<div class="underline mt-2"><span></span> </div>
+                    </h3>
+                    <form>
+                        <i class="en fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Enter your emiai id">
+                        <button type="submit"><i class="fas fa-arrow-right"></i> </button>
+                    </form>
+
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook fa"></i>
+                        <i class="fa-brands fa-twitter fa"></i>
+                        <i class="fa-brands fa-whatsapp fa"></i>
+                        <i class="fa-brands fa-linkedin fa"></i>
+                    </div>
+                </div>
+            </div>
+            <hr class="w-[90%] border-0 border-b-1 border-[#ccc] m-auto">
+            <p class="text-center pt-4"> Brain media Solutions © 2024 - All Rights Reserved</p>
+        </footer>
+
+    </section>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            const menu_button = document.querySelector('.menu-button')
+            sidebar.style.display = 'flex'
+
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+
+
+
+        var cursor = document.querySelector(".cursor");
+        var cursor2 = document.querySelector(".cursor2");
+        document.addEventListener("mousemove", function (e) {
+            cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+        });
+
+
+var links = document.querySelectorAll(".nav li");
+links.forEach(li => {
+    li.addEventListener("click",()=> {
+        resetLinks();
+      li.classList.add("active");
+    })
+})
+
+function resetLinks(){
+    links.forEach(li=>{
+        li.classList.remove("active");
+    })
+}
+    </script> 
+</body>
+
+<script src="script.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/backtotop"></script>
+<script src="js/preloader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
